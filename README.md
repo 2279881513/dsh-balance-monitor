@@ -4,7 +4,7 @@
 
 **DeepSeek + 硅基流动 余额监控**，直接显示在 dsh 侧边栏底部。
 
-基于 [@rainronin/dsh-balance-monitor](https://github.com/Rainronin/dsh-balance-monitor) 改进，增加 **硅基流动 (SiliconFlow) 支持**：自动跟随当前使用的模型提供商切换余额查询接口。硅基流动端使用网页登录态 Cookie 查真实余额（绕开已弃用的 `/v1/user/info` 开放 API）。
+基于 [@rainronin/dsh-balance-monitor](https://github.com/Rainronin/dsh-balance-monitor) → [jelly-000/dsh-balance-monitor](https://github.com/jelly-000/dsh-balance-monitor) 改进，增加 **硅基流动 (SiliconFlow) 支持**：自动跟随当前使用的模型提供商切换余额查询接口。硅基流动端使用网页登录态 Cookie 查真实余额（绕开已弃用的 `/v1/user/info` 开放 API）。
 
 <p align="center">
   <img src="docs/preview/balance-wide.png" alt="侧边栏底部余额卡片" width="280">

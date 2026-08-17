@@ -4,7 +4,7 @@
 
 **DeepSeek + SiliconFlow balance monitor** in the dsh sidebar footer.
 
-A fork of [@rainronin/dsh-balance-monitor](https://github.com/Rainronin/dsh-balance-monitor) with **SiliconFlow (硅基流动) support**: auto-detects the active model provider and queries the real balance from the platform web API (login cookie) instead of the deprecated `/v1/user/info` open API.
+A fork of [@rainronin/dsh-balance-monitor](https://github.com/Rainronin/dsh-balance-monitor) → [jelly-000/dsh-balance-monitor](https://github.com/jelly-000/dsh-balance-monitor) with **SiliconFlow (硅基流动) support**: auto-detects the active model provider and queries the real balance from the platform web API (login cookie) instead of the deprecated `/v1/user/info` open API.
 
 <p align="center">
   <img src="docs/preview/balance-wide.png" alt="Sidebar balance card" width="280">
