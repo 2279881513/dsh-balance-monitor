@@ -1,0 +1,44 @@
+{
+  "name": "dsh-balance-monitor",
+  "version": "0.4.0",
+  "description": "DeepSeek & 硅基流动(SiliconFlow) 余额监控 DSH 插件：余额卡片、今日花费、近一年用量，支持官方 DeepSeek 和硅基流动双提供商自动切换，硅基流动端使用网页登录态查真实余额。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "siliconflow",
+    "balance",
+    "billing",
+    "sidebar"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "docs",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "license": "MIT"
+}
